@@ -1,1 +1,13 @@
 Aula05-Grupos de comandos SQL
+- DDL (Criação de entidades do banco de dados)
+    CREATE, ALTER, TRUNCATE, DROP
+- DML (Gerenciar dados)
+    INSERT, UPDATE, DELETE, LOCK
+- DCL (Administrar ambiente do banco de dados)
+    COMMIT, ROLLBACK, SAVEPOINT
+
+TRUNCATE: Apaga os dados de uma tabela
+DROP: Apaga a tabela da base de dados
+LOOK: Gerencia a concorrência de atualização de dados
+ROLLBACK: Retorna o estado do banco para um ponto salvo
+SAVEPOINT: Salva um ponto prévio do banco
