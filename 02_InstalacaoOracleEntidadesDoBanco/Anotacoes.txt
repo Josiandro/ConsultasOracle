@@ -1,0 +1,7 @@
+Entidades
+
+Tablespace (área de tabelas)
+- Tabelas
+
+
+** Na tablespace, são definidos alguns padrões para a base de dados, como o espaço em disco e o local onde será armazenada a base de dados. Dessa forma, a inclusão de registros e criação de tabelas, podem ser limitados pelas definições pré-definidas na tabelaspace.
