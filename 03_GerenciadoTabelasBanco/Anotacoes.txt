@@ -1,4 +1,7 @@
 Aula05-Criando uma tabela usando o assistente
 - Botão direito em Tabelas > Nova Tabela > Definir o nome > Definir os campos
 
+Aula6-Excluindo uma tabela usando o assistente
+- Botão direti no nome da tabela > Tabela > Eliminar
+
 https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados/task/106814
