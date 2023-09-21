@@ -1,4 +1,4 @@
-Aula05-Entidades do banco de dados
+Entidades do banco de dados
 
 - TABLEASPACE (Área de tabelas)
     TABELAS - Com campos, definições, chaves primária e estrangeira, além de relacionamentos entre tabelas
@@ -19,7 +19,7 @@ FOREIGN-KEY
 - É a chave estrangeira, dado que será o elo de ligação com outra tabela, usando a chave primária.
 
 -------------------------------------------------------------------------------------------------------------------------------
-Aula07-Tipos de campos
+Tipos de campos
 
 Campos de Textos:
     CHAR - Sempre ocupa todo o tamanho do campo

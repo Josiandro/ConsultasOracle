@@ -1,5 +1,5 @@
-Aula05-Criando uma tabela usando o assistente
+Criando uma tabela usando o assistente
 - Botão direito em Tabelas > Nova Tabela > Definir o nome > Definir os campos
 
-Aula6-Excluindo uma tabela usando o assistente
-- Botão direti no nome da tabela > Tabela > Eliminar
+Excluindo uma tabela usando o assistente
+- Botão direito no nome da tabela > Tabela > Eliminar

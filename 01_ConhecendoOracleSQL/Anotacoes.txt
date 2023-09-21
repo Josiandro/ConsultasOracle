@@ -1,4 +1,4 @@
-Aula05-Grupos de comandos SQL
+Grupos de comandos SQL
 - DDL (Criação de entidades do banco de dados)
     CREATE, ALTER, TRUNCATE, DROP
 - DML (Gerenciar dados)
