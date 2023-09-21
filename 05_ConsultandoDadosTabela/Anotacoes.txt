@@ -1,1 +1,1 @@
-ECHO est  ativado.
+https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados/task/106822
