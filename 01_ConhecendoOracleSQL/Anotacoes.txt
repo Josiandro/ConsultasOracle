@@ -6,8 +6,8 @@ Grupos de comandos SQL
 - DCL (Administrar ambiente do banco de dados)
     COMMIT, ROLLBACK, SAVEPOINT
 
-TRUNCATE: Apaga os dados de uma tabela
-DROP: Apaga a tabela da base de dados
-LOOK: Gerencia a concorrência de atualização de dados
-ROLLBACK: Retorna o estado do banco para um ponto salvo
+TRUNCATE:  Apaga os dados de uma tabela
+DROP:      Apaga a tabela da base de dados
+LOOK:      Gerencia a concorrência de atualização de dados
+ROLLBACK:  Retorna o estado do banco para um ponto salvo
 SAVEPOINT: Salva um ponto prévio do banco
