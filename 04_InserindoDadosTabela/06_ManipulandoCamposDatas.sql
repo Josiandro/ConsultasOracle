@@ -4,7 +4,7 @@ INSERT INTO TB_CLIENTES
 VALUES
     ('02833257040', 'Josiandro dos Santos Silveira', 'Rua João Goulart número 62', NULL, 'São Luiz', 'Sapiranga', 'RS', '93806720', '29/11/1991', 31, 'M', 1000000, 2000, 0);
 
--- Faz o insert de um cliente sem definindo o formato da data
+-- Faz o insert de um cliente definindo o formato da data
 INSERT INTO TB_CLIENTES
     (CPF, NOME, ENDERECO1, ENDERECO2, BAIRRO, CIDADE, ESTADO, CEP, DATA_NASCIMENTO, IDADE, SEXO, LIMITE_CREDITO, OLUME_COMPRA, PRIMEIRA_COMPRA)
 VALUES
