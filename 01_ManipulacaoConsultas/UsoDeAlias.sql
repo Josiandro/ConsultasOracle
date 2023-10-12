@@ -12,3 +12,7 @@ SELECT NOME, ENDERECO1 || ',' || BAIRRO || ', '|| CIDADE|| ' - '|| ESTADO AS "EN
 
 -- Select de duas tabelas com alias para colunas e para nomes de tabelas
 SELECT C.NOME AS CLIENTE, V.NOME AS VENDEDOR FROM TB_VENDEDORES V, TB_CLIENTES C;
+
+-- Select utilizando subconsultas com alias nessa subconsulta
+SELECT X.NOME CLIENTE, V.NOME VENDEDOR FROM
+(SELECT NOME FROM TB_CLIENTES) X, TB_VENDEDORES V;
