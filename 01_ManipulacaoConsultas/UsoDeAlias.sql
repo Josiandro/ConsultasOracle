@@ -9,3 +9,6 @@ SELECT * FROM TB_CLIENTES;
 
 -- Select concatenando campos que formam o endereço e criando um alias/nome para a coluna do endereço
 SELECT NOME, ENDERECO1 || ',' || BAIRRO || ', '|| CIDADE|| ' - '|| ESTADO AS "ENDEREÇO" FROM TB_CLIENTES;
+
+-- Select de duas tabelas com alias para colunas e para nomes de tabelas
+SELECT C.NOME AS CLIENTE, V.NOME AS VENDEDOR FROM TB_VENDEDORES V, TB_CLIENTES C;
