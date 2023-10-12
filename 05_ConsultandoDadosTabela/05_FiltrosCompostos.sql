@@ -11,4 +11,8 @@ SELECT * FROM TB_PRODUTOS WHERE PRECO_LISTA > 16 OR SABOR = 'Laranja';
 
 SELECT * FROM TB_PRODUTOS WHERE NOT (PRECO_LISTA > 16 OR SABOR = 'Laranja');
 
-https://cursos.alura.com.br/course/introducao-sql-oracle-manipule-consulte-dados/task/106825
+SELECT * FROM TB_CLIENTES WHERE (IDADE >= 18 AND SEXO = 'F') AND BAIRRO = 'Jardins';
+
+SELECT * FROM TB_CLIENTES WHERE (IDADE >= 18 AND SEXO = 'F') AND (CIDADE = 'Sao Paulo' OR BAIRRO = 'Barra da Tijuca');
+
+SELECT * FROM TB_CLIENTES WHERE (IDADE >= 18 AND SEXO = 'F' AND CIDADE = 'Sao Paulo') OR BAIRRO = 'Barra da Tijuca';
