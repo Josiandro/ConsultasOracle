@@ -1,9 +1,9 @@
 Entidades do banco de dados
 
 - TABLEASPACE (Área de tabelas)
-    TABELAS - Com campos, definições, chaves primária e estrangeira, além de relacionamentos entre tabelas
-    VIEWS - São o resultado de uma consulta que geram uma "tabela" lógica
-    TRIGGERS - São gatilhos que podem disparar diversos processos a partir de alguma momento
+    TABELAS    - Com campos, definições, chaves primária e estrangeira, além de relacionamentos entre tabelas
+    VIEWS      - São o resultado de uma consulta que geram uma "tabela" lógica
+    TRIGGERS   - São gatilhos que podem disparar diversos processos a partir de alguma momento
     PROCEDURES - São manipulações mais avançadas, no caso do Oracle, usando PL-SQL
 
 
@@ -22,26 +22,26 @@ FOREIGN-KEY
 Tipos de campos
 
 Campos de Textos:
-    CHAR - Sempre ocupa todo o tamanho do campo
-    VARCHAR - Ocupa só o tamanho do dado digitado
-    VARCHAR2 - Ocupa só o tamanho do dado digitado
-    NVARCHAR - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
-    NVARCHAR - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
-    NVARCHAR2 - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
-    CLOB (VARCHAR2) - Armazenam até 8 Terabytes de dados
+    CHAR             - Sempre ocupa todo o tamanho do campo
+    VARCHAR          - Ocupa só o tamanho do dado digitado
+    VARCHAR2         - Ocupa só o tamanho do dado digitado
+    NVARCHAR         - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
+    NVARCHAR         - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
+    NVARCHAR2        - Usa uma tabela de caracteres extendida, como alfabeto Russo, por exemplo
+    CLOB (VARCHAR2)  - Armazenam até 8 Terabytes de dados
     NLOB (NVARCHAR2) - Armazenam até 8 Terabytes de dados
 
 Campos Numéricos:
-    NUMBER - Fixo ou ponto flutuante (também aceita o tipo de arredondamento)
-    INTEGER - Número inteiro
+    NUMBER       - Fixo ou ponto flutuante (também aceita o tipo de arredondamento)
+    INTEGER      - Número inteiro
     SHORTINTEGER - Número inteiro maior que o INTEGER
-    LONGINTEGER - Número inteiro maior que o SHORTINTEGER
-    DECIMAL - Aceita pontos flutuantes apenas, mas de número fixo
+    LONGINTEGER  - Número inteiro maior que o SHORTINTEGER
+    DECIMAL      - Aceita pontos flutuantes apenas, mas de número fixo
 
 Campos Datas:
-    DATE - Armazena dados no formato de Data e Hora
+    DATE      - Armazena dados no formato de Data e Hora
     TIMESTAMP - Entra nos milésimos de segundos
 
 Campos Binários:
-    BLOB - Binários de até 128 terabytes (fotos, vídeos, documento do word, etc)
+    BLOB  - Binários de até 128 terabytes (fotos, vídeos, documento do word, etc)
     BFILE - Binários de até (cria uma referência a uma localização de um arquivo salvo no computador)
