@@ -1,0 +1,2 @@
+- O esquema do banco vai mostrar as tabelas e seus relacionamentos.
+- Para ver o esquema de uma tabela, basta clicar na tabela e depois na aba Model. Serão exibidos os dados da tabela e seus relacionamentos.
