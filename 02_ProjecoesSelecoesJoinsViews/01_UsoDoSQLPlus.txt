@@ -1,0 +1,8 @@
+- Para acessar o SQLPLUS é preciso abrir o terminal e digitar SQLPLUS, depois passar o login e senha do banco.
+- Dentro do SQLPLUS, podem ser usados comandos habituais, que são usado no SQLDeveloper.
+- Para rodar arquivos externos, é preciso digitar @ seguido do caminho completo do arquivo.
+    @C:\oracle\scripts\Arquivos\Criacao_Esquema.sql
+- É preciso dar COMMIT para salvar as alterações feitas (dar commit + enter, depois digitar a / + enter)
+    commit
+    2 /
+** O SQLPLUS é indicado para rodar arquivos gigantes, mas para uso, o melhor é o SQLDeveloper
