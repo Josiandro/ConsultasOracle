@@ -1,2 +1,10 @@
 - O esquema do banco vai mostrar as tabelas e seus relacionamentos.
+
+Esqueme de uma tabela:
 - Para ver o esquema de uma tabela, basta clicar na tabela e depois na aba Model. Serão exibidos os dados da tabela e seus relacionamentos.
+
+Esquema completo do banco:
+- Clicar em Exibir > Data Modeler > Browser
+- Sem titulo_1 > Modelos Relacionais > Botão direito > Novo modelo relacional
+- Clicar em uma tabela e arrastar para dentro do modelo criado, que já foi aberto
+- Fazer isso com todas as tabelas e com isso serão exibidos os relacionamentos entre as tabelas
